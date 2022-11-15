@@ -80,4 +80,15 @@
 		</pluginRepository>
 	</pluginRepositories>
 
+   <distributionManagement>
+    <snapshotRepository>
+      <id>NexusMavenDeployment</id>
+      <url>http://localhost:8081/repository/Mavenproject/</url>
+    </snapshotRepository>
+    <repository>
+      <id>NexusMavenDeployment</id>
+      <url>http://localhost:8081/repository/MavenRelease/</url>
+    </repository>
+  </distributionManagement>
+  
 </project>

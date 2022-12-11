@@ -11,7 +11,7 @@
 	<groupId>newproject.com</groupId>
 	<artifactId>billno</artifactId>
 	<!-- <version>v1.0.0-SNAPSHOT</version> -->
-	<version>v1.0.0</version>
+	<version>v1.0.0-${BUILD_NUMBER}</version>
 	<packaging>war</packaging>
 	<name>billno</name>
 	<description>Demo project for Spring Boot</description>
